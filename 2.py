@@ -11,7 +11,7 @@ class Solution:
         def goal(arr, i,j,k,count):  # мне нужно вернуть count (после обновления), поэтому моя рекурсивная функция должна возвращать count
             if i>=row or j>= col:
                 return 0
-            if arr[i][j]==1:  #препятствие отсюда, возвращение
+            if arr[i][j]==1:  
                 return 0
             if i==row-1 and j==col-1:   #цель достигнута, увеличьте количество на 1
                 count+=1
