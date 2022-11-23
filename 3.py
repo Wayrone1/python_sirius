@@ -1,8 +1,9 @@
-    #    Сложность данной функции O(n*m).
-    #     Args:
-    #         matrix (List[List[int]]): matrix where we search squares.
-    #     Returns:
-    #         int: amount of squares in matrix.
+ """Сложность данной функции O((n+1)*(m+1))
+        Args:
+            obstacleGrid (List[List[int]]): grid which we should research.
+        Returns:
+            int: he number of possible unique paths that the robot can take to reach the bottom-right corner.
+        """       
 
 
 from typing import List
