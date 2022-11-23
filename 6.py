@@ -1,8 +1,9 @@
-#Сложность данной функции O(n).
-        # Args:
-        #     matrix (List[List[int]]): matrix where we search squares.
-        # Returns:
-        #     int: amount of squares in matrix.
+"""Сложность данной функции O(n)
+        Args:
+            nums (List[int]): representation of houses which we should rob.
+        Returns:
+            int: the maximum money which we can steal 
+            """
 from typing import List
 class Solution :
      def rob(self, nums: List[int]) -> int: 
